@@ -1,0 +1,21 @@
+$ ./analyze.sh Files/testDir/file1.txt
+It is a file.
+Lines: 1
+Words: 5
+Characters: 27
+
+
+$ ./analyze.sh Files/testDir
+It is a directory.
+Total files: 3
+.txt files: 2
+
+
+
+ ./analyze.sh
+Error: Exactly one argument required.
+
+
+
+$ ./analyze.sh randomFolder
+Error: Path does not exist.
