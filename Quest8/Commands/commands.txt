@@ -1,0 +1,5 @@
+touch bg_move.sh
+chmod +x bg_move.sh
+mkdir Files/testDir
+./bg_move.sh Files/testDir
+ls Files/testDir/backup

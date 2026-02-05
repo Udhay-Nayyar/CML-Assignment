@@ -1,0 +1,19 @@
+./bg_move.sh Files/testDir
+Main Script PID: 4792
+Moving files to backup in background...
+
+Moved file1.txt → PID: 4794
+Moved file2.txt → PID: 4796
+Moved file3.txt → PID: 4798
+
+All background moves completed.
+
+
+
+
+
+udhay@UD-ROCKS MINGW64 ~/OneDrive/Desktop/CML ASSIGNMENT/Quest8 (main)
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     4829    1956    4829      21276  cons0     197609 23:07:38 /usr/bin/ps
+     1956       1    1956      28424  cons0     197609 21:35:41 /usr/bin/bash

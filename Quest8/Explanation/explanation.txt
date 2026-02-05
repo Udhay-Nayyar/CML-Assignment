@@ -1,0 +1,7 @@
+The bg_move.sh script accepts a directory path and moves each file into a backup subdirectory.
+
+Each move operation is executed in the background using the & operator, and the process ID of each task is displayed using $!.
+
+The script PID is shown using $$, and the wait command ensures that all background processes complete before the script exits.
+
+Proper argument and directory validation provide robust error handling.
