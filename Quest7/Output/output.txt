@@ -1,0 +1,44 @@
+$ mv Files/input.txt Files/temp.txt
+./patterns.sh
+Error: input.txt not found.
+
+
+
+udhay@UD-ROCKS MINGW64 ~/OneDrive/Desktop/CML ASSIGNMENT/Quest7 (main)
+$ tr -cs '[:alpha:]' '\n' < Files/input.txt
+aeiou
+BCD
+sky
+Apple
+try
+Education
+Rhythm
+Dog
+cat
+ooo
+why
+
+
+
+
+$ cat vowels.txt
+cat consonants.txt
+cat mixed.txt
+aeiou
+ooo
+BCD
+sky
+try
+Rhythm
+why
+Dog
+cat
+
+
+
+udhay@UD-ROCKS MINGW64 ~/OneDrive/Desktop/CML ASSIGNMENT/Quest7/Files (main)
+$ cd ..
+./patterns.sh
+Words containing only vowels → vowels.txt
+Words containing only consonants → consonants.txt
+Mixed words starting with consonant → mixed.txt

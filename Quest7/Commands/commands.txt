@@ -1,0 +1,7 @@
+touch patterns.sh
+chmod +x patterns.sh
+nano Files/input.txt
+./patterns.sh
+cat vowels.txt
+cat consonants.txt
+cat mixed.txt

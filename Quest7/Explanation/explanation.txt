@@ -1,0 +1,7 @@
+The patterns.sh script processes words from input.txt by splitting them into individual entries using the tr command.
+
+Regular expressions with grep are used to categorize words containing only vowels, only consonants, and mixed words that begin with a consonant.
+
+Case-insensitive matching ensures accurate classification regardless of letter case.
+
+The results are redirected into vowels.txt, consonants.txt, and mixed.txt respectively.
