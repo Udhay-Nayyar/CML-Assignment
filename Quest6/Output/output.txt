@@ -1,0 +1,5 @@
+$ ./metrics.sh
+Longest word: productivity
+Shortest word: is
+Average word length: 6.375
+Total unique words: 15

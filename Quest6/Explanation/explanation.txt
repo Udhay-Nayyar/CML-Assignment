@@ -1,0 +1,7 @@
+The metrics.sh script analyzes text from input.txt using pipelines.
+
+The tr command separates words by removing punctuation, while sort and uniq help identify unique entries.
+
+The script calculates the longest and shortest words and determines the average word length using awk.
+
+It also counts the total number of unique words, demonstrating effective use of pipes and standard Linux utilities.

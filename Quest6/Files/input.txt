@@ -1,0 +1,3 @@
+Linux is powerful and flexible.
+Shell scripting makes automation easy.
+Automation saves time and increases productivity.

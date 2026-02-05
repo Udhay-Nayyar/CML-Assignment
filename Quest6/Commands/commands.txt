@@ -1,0 +1,5 @@
+touch metrics.sh
+chmod +x metrics.sh
+nano Files/input.txt
+./metrics.sh
+tr -cs '[:alnum:]' '\n' < Files/input.txt
