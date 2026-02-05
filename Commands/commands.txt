@@ -1,7 +1,0 @@
-touch log_analyzer.sh
-chmod +x log_analyzer.sh
-nano system.log
-./log_analyzer.sh Files/system.log
-cat logsummary_$(date +%F).txt
-./log_analyzer.sh
-./log_analyzer.sh abc.log
