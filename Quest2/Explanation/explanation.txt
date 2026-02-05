@@ -1,0 +1,9 @@
+The script log_analyzer.sh processes a log file provided as a command-line argument.
+
+It validates that the file exists and is readable before analyzing it.
+
+The script counts the total number of log entries and categorizes them based on INFO, WARNING, and ERROR levels using grep and wc commands.
+
+It identifies the most recent ERROR message and generates a summary report file named with the current date.
+
+Proper error handling ensures meaningful messages are displayed for invalid inputs.

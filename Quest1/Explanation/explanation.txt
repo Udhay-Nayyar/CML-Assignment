@@ -1,0 +1,7 @@
+The analyze.sh script accepts exactly one command-line argument.
+
+If the argument is a file, the script displays the number of lines, words, and characters using the wc command.
+
+If the argument is a directory, it calculates the total number of files and the number of .txt files using the find command.
+
+The script also handles errors such as incorrect argument count and non-existing paths, ensuring robustness.

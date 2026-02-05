@@ -1,0 +1,11 @@
+touch analyze.sh
+chmod +x analyze.sh
+mkdir Files
+echo "Hello world" > file1.txt
+mkdir testDir
+mv file1.txt file2.txt file3.md testDir
+
+./analyze.sh Files/testDir/file1.txt
+./analyze.sh Files/testDir
+./analyze.sh
+./analyze.sh randomFolder
