@@ -1,0 +1,6 @@
+touch sync.sh
+chmod +x sync.sh
+mkdir Files/dirA Files/dirB
+./sync.sh
+ls Files/dirA
+ls Files/dirB

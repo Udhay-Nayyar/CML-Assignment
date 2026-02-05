@@ -1,0 +1,7 @@
+The sync.sh script compares two directories, dirA and dirB.
+
+It identifies files that exist exclusively in each directory and prints their names.
+
+For files present in both directories, the cmp command is used to compare file contents and determine whether they match.
+
+The script includes directory validation to ensure proper execution and error handling.

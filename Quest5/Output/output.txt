@@ -1,0 +1,32 @@
+$ cd ..
+./sync.sh
+Files only in dirA:
+-------------------
+fileA.txt
+
+Files only in dirB:
+-------------------
+fileB.txt
+
+Comparing common files:
+-----------------------
+file1.txt → Contents MATCH
+file2.txt → Contents DIFFER
+
+
+
+$ ls dirA
+ls dirB
+file1.txt  file2.txt  fileA.txt
+file1.txt  file2.txt  fileB.txt
+
+
+
+
+$ mv Files/dirB Files/temp
+./sync.sh
+Error: One or both directories do not exist.
+
+
+
+$ cmp Files/dirA/file1.txt Files/dirB/file1.txt
