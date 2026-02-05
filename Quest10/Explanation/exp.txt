@@ -1,0 +1,9 @@
+The program demonstrates signal handling in Linux using the signal() system call.
+
+The parent process runs indefinitely while two child processes are created using fork().
+
+The first child sends a SIGTERM signal after 5 seconds, which the parent handles by printing a message and continuing execution.
+
+The second child sends a SIGINT signal after 10 seconds, which the parent handles by exiting gracefully.
+
+This program illustrates inter-process communication and proper signal handling in Unix-based systems.

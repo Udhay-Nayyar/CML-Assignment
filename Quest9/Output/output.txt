@@ -1,0 +1,14 @@
+udhay@UD-ROCKS:/mnt/c/Users/udhay/OneDrive/Desktop/CML Assignment/Quest9$ gcc zombie_prevention.c -o zombie
+udhay@UD-ROCKS:/mnt/c/Users/udhay/OneDrive/Desktop/CML Assignment/Quest9$ ./zombie
+Child Process: PID = 3100, Parent PID = 3099
+Child Process: PID = 3101, Parent PID = 3099
+Child Process: PID = 3102, Parent PID = 3099
+Child 3100 exiting...
+Child 3102 exiting...
+Parent cleaned up child with PID = 3100
+Child 3101 exiting...
+Parent cleaned up child with PID = 3101
+Parent cleaned up child with PID = 3102
+No zombie processes remain.
+udhay@UD-ROCKS:/mnt/c/Users/udhay/OneDrive/Desktop/CML Assignment/Quest9$ ps -el | grep Z
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD

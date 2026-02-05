@@ -1,0 +1,9 @@
+The program demonstrates zombie process prevention in Linux.
+
+Multiple child processes are created using fork(). When a child process terminates, the parent process calls wait() to collect the child's exit status.
+
+This ensures that terminated child processes do not remain in the zombie state.
+
+The parent prints the PID of each child it cleans up, showing proper process management.
+
+The absence of zombie processes is verified using the ps command.
