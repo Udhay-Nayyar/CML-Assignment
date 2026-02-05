@@ -1,0 +1,9 @@
+The validate_results.sh script reads student data from marks.txt.
+
+Using a while loop, the script processes each record and checks subject marks against the passing criteria of 33.
+
+Conditionals and arithmetic operations are used to count failures per student.
+
+Students failing in exactly one subject and those passing all subjects are displayed, along with category counts.
+
+The script also validates file existence to ensure proper error handling.

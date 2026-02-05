@@ -1,0 +1,10 @@
+john123@gmail.com
+alice99@yahoo.com
+bob_smith@gmail.com
+mike123@company.com
+invalidemail.com
+@test.com
+raj123@domain
+hello@site.org
+john123@gmail.com
+emma2024@college.com

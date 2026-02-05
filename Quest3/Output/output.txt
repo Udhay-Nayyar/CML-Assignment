@@ -1,0 +1,21 @@
+./validate_results.sh
+Students who failed in exactly ONE subject:
+------------------------------------------
+101 - John
+102 - Alice (Passed All)
+103 - Bob
+104 - Emma (Passed All)
+106 - Kiran (Passed All)
+./validate_results.sh: line 22: [: : integer expression expected
+./validate_results.sh: line 26: [: : integer expression expected
+./validate_results.sh: line 30: [: : integer expression expected
+ -  (Passed All)
+
+Summary:
+Students failed in exactly one subject: 2
+Students passed in all subjects: 4
+
+
+
+./validate_results.sh
+Error: marks.txt not found.

@@ -1,0 +1,5 @@
+bob_smith@gmail.com
+invalidemail.com
+@test.com
+raj123@domain
+hello@site.org

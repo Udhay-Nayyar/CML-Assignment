@@ -1,0 +1,9 @@
+The emailcleaner.sh script processes a list of email addresses from emails.txt.
+
+Using grep with a regular expression, valid emails matching the required format are extracted and stored in valid.txt.
+
+Invalid emails are redirected to invalid.txt.
+
+The sort and uniq commands are used to remove duplicate entries from the valid email list.
+
+The script also checks for file existence to ensure proper error handling.
